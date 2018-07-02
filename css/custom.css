@@ -1,0 +1,483 @@
+/*
+|--------------------------------------------------------------------------
+| Custom CSS script
+|--------------------------------------------------------------------------
+*/
+
+.auth-background {
+    background-image: url("img/auth-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.auth-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.register-form {
+    border-right: 1px solid #1ab394;
+}
+
+.register-form .btn {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.register-text img {
+    margin-bottom: 35px;
+    height: 50px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.page-title {
+    margin-top: 28px;
+}
+
+.title-action {
+    padding-top: 22px;
+}
+
+.gray-bg, .navbar-static-top {
+    background-color: #ECF0F1;
+}
+
+.ibox-content {
+    transition: box-shadow .25s !important;
+    box-shadow: 0 3px 4px rgba(119,151,178,0.16), 0 3px 4px rgba(119,151,178,0.23);
+}
+
+.ibox-content:hover{
+    transition: box-shadow .25s !important;
+    box-shadow: 0 8px 17px 0 rgba(119,151,178,0.2),0 6px 20px 0 rgba(119,151,178,0.19) !important;
+}
+
+.btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.delete-button {
+    border: none;
+    background-color: transparent;
+    color: #ed5565;
+    font-size: 16px;
+}
+
+.delete-button:hover {
+    color: #ed5565;
+    opacity: 0.8;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.custom-search-form .btn {
+    padding: 6px 12px;
+    text-transform: none;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#toggle-password {
+    font-weight: normal;
+    padding: 6px 12px;
+    text-transform: none;
+    border: 1px solid #cfd8dc;
+}
+
+.ibox-title .ibox-tools button {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.ibox-title h5 {
+    line-height: 40px;
+    color: #1c84c6;
+    font-weight: bold;
+}
+.collapse-link .ibox-tools a {
+    color: #1c84c6;
+}
+
+.collapse-link:hover {
+    cursor: pointer;
+}
+
+.panel-default>.panel-heading {
+    background-color: #f3f6fb;
+    border-color: #f3f6fb;
+}
+
+.panel-default {
+    border-color: #D5DEED;
+}
+
+.selected-client-wrapper {
+    padding: 10px;
+    background-color: #f3f6fb;
+    margin-top: 22px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f3f6fb;
+}
+
+.invoice-total > tbody > tr > td:last-child {
+    border-bottom: none;
+}
+
+.form-control, .single-line, .input-group-addon {
+    border: 1px solid #cfd8dc;
+}
+
+label {
+    font-weight: bold;
+}
+
+.ibox-title h4 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+    color: #1c84c6;
+    font-weight: bold;
+}
+
+.title-action .btn-circle {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.ibox-title .ibox-tools .collapse-link {
+    color: #1c84c6;
+}
+
+.ibox.collapsed {
+    box-shadow: 0 3px 4px rgba(119,151,178,0.16), 0 3px 4px rgba(119,151,178,0.23);
+    transition: box-shadow .25s !important;
+}
+
+.ibox.collapsed:hover {
+    transition: box-shadow .25s !important;
+    box-shadow: 0 8px 17px 0 rgba(119,151,178,0.2),0 6px 20px 0 rgba(119,151,178,0.19) !important;
+}
+
+.ibox.collapsed:hover .ibox-content {
+    box-shadow: none !important;
+}
+
+.ibox.collapsed .ibox-content {
+    box-shadow: none;
+}
+
+.navbar-minimalize {
+    padding: 4px 12px;
+}
+
+.label-add-btn {
+    float: right;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: #1c84c6;
+    text-transform: none;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.label-add-btn:hover {
+    color: #1c84c6;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.calculate-distance {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.report-calc td {
+    background-color: #fff;
+}
+
+.report-calc-first {
+    background-color:#e3e3e3 !important;
+}
+
+.report-calc-second {
+    background-color:#fff !important;
+}
+
+.form-group {
+    position: relative;
+}
+
+.search-box {
+    display: none;
+    width: 100%;
+    background: #f3f6fb;
+    margin-top: 5px;
+    box-shadow: 0 8px 17px 0 rgba(119,151,178,0.2),0 6px 20px 0 rgba(119,151,178,0.19) !important;
+    z-index: 10;
+}
+
+.search-box .result p {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #cfd8dc;
+}
+
+.search-box .result p:hover{
+    cursor: pointer;
+    background: rgba(255,255,255,0.7);
+}
+
+.search-box .results-wrapper {
+    max-height: 190px;
+    overflow-y: scroll;
+}
+
+.client-search-box {
+    position: absolute;
+}
+
+.exit-searchbox {
+    background: transparent;
+    border: none;
+    color: #f8ac59;
+    text-transform: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.exit-searchbox:hover {
+    color: #f8ac59;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.search-box .no-results p:hover {
+    cursor: default;
+    background-color: #f2dede;
+}
+
+.client-prices>tbody>tr>td {
+    border-top: none;
+    border-bottom: 1px solid #e7eaec;
+}
+
+.client-prices .delete-icon {
+    width: 20px;
+}
+
+#addCategory {
+    margin-top: 120px;
+}
+
+.delete-product {
+    color: #ed5565;
+}
+
+.delete-product:hover {
+    color: #ed5565;
+    opacity: 0.8;
+}
+
+.invoice-total > tbody > tr > td:last-child {
+    width: 9%;
+}
+
+.product-description {
+    display: block;
+}
+
+.send-email, .fiscalization {
+    cursor: pointer;
+}
+
+.navbar-default {
+    position: fixed !important;
+}
+
+.affix {
+    top: 0;
+    width: calc(100% - 250px);
+    z-index: 99;
+    box-shadow: 0 3px 4px rgba(119,151,178,0.16), 0 3px 4px rgba(119,151,178,0.23);
+}
+
+.affix + .affix-padding {
+    padding-top: 85px;
+}
+
+.mini-navbar .affix {
+    width: calc(100% - 85px);
+}
+
+.mobile-profile{
+    display: none !important;
+}
+
+.mobile-profile p {
+    padding: 5px 20px;
+    background-color: #2f4050;
+    color: #fff;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.fa-info-circle {
+    color: #1c84c6;
+}
+
+.tour-btn {
+    padding: 6px 12px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.tour {
+    padding: 0;
+    border: none;
+    background-color: #45596C;
+    box-shadow: 0 3px 4px rgba(119,151,178,0.16), 0 3px 4px rgba(119,151,178,0.23);
+}
+
+.tour .popover-title {
+    background-color: #293846;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.tour .popover-content {
+    color: #FFFFFF;
+}
+
+.tour.top>.arrow {
+    border-top-color: #45596C;
+}
+
+.tour.top>.arrow:after {
+    border-top-color: #45596C;
+}
+
+.tour.bottom>.arrow {
+    border-bottom-color: #293846;
+}
+
+.tour.bottom>.arrow:after {
+    border-bottom-color: #293846;
+}
+
+.tour.right>.arrow {
+    border-right-color: #45596C;
+}
+
+.tour.right>.arrow:after {
+    border-right-color: #45596C;
+}
+
+.tour.left>.arrow {
+    border-left-color: #45596C;
+}
+
+.tour.left>.arrow:after {
+    border-left-color: #45596C;
+}
+
+.tour .popover-content a {
+    color: #23c6c8;
+}
+
+.tour .popover-content a:hover {
+    opacity: 0.7;
+}
+
+.navbar-top-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name{
+    font-weight: bold;
+}
+
+.body-small .navbar-top-links li:last-child{
+    margin-right: 40px !important;
+}
+
+@media (max-width: 1000px) {
+    .company-name{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 350px;
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .affix {
+        width: calc(100% - 30px);
+    }
+
+    .mobile-profile{
+        display: inline-block !important;
+    }
+
+    .navbar-top-links{
+        justify-content: space-between;
+    }
+
+    .navbar-right{
+        float: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .company-name{
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .company-name{
+        width: 120px;
+    }
+}
+
+@media (max-width: 400px) {
+    .company-name{
+        width: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-static-side {
+        z-index: 100 !important;
+        position: absolute;
+        width: 220px;
+    }
+}
