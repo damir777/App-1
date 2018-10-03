@@ -6,4 +6,6 @@ Korisnici se moraju registrirati da bi koristili aplikaciju. Svaki korisnik ima 
 
 Aplikacija ima mogućnost fiskalizacije maloprodajnih računa. Računi i ponude mogu biti višejezični i viševalutni sa automatskom konverzijom valuta. Mogućnost generiranja PDF-a i slanja istih na email.
 
+Mogućnost kreiranja ugovora za slanje ponavljajućih računa.
+
 <b>Korištene tehnologije:</b> Laravel Framework, MySQL, Inspinia - Responsive HTML tema
